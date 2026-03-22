@@ -42,7 +42,7 @@ export function App() {
 
   return (
     <div>
-      <div>Hello from React 11</div>
+      <div>Hello from React</div>
       <form onSubmit={handleSubmit}>
         <input type="text" value={taskTitle} onChange={handleChange} />
         <button>Add</button>
