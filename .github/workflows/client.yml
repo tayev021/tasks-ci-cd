@@ -1,6 +1,6 @@
 name: Client Workflow
 on:
-  push:
+  pull_request:
     branches: [main]
     paths:
       - 'client/**'
