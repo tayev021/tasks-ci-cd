@@ -43,6 +43,7 @@ export function App() {
   return (
     <div>
       <div>Hello from React</div>
+      <div>Hello from React 2</div>
       <form onSubmit={handleSubmit}>
         <input type="text" value={taskTitle} onChange={handleChange} />
         <button>Add</button>
