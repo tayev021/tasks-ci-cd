@@ -44,6 +44,7 @@ export function App() {
     <div>
       <div>Hello from React</div>
       <div>Hello from React 2</div>
+      <div>Hello from React 3</div>
       <form onSubmit={handleSubmit}>
         <input type="text" value={taskTitle} onChange={handleChange} />
         <button>Add</button>
