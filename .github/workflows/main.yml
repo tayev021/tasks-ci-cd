@@ -2,7 +2,9 @@ name: Main Workflow
 on:
   pull_request:
     branches: [main]
-
+    paths:
+      - 'server/**'
+      - 'client/**'
 jobs:
   server:
     runs-on: ubuntu-latest
