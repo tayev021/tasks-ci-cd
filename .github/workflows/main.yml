@@ -5,6 +5,8 @@ on:
     paths:
       - 'server/**'
       - 'client/**'
+    paths-ignore:
+      - '.github/**'
 jobs:
   server:
     runs-on: ubuntu-latest

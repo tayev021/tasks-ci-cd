@@ -4,6 +4,8 @@ on:
     branches: [dev]
     paths:
       - 'server/**'
+    paths-ignore:
+      - '.github/**'
 jobs:
   server:
     runs-on: ubuntu-latest
