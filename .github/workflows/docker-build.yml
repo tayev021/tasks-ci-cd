@@ -47,6 +47,8 @@ jobs:
           context: ./client
           target: production
           push: true
+          build-args: |
+            VITE_API_URL=${{ secrets.VITE_API_URL }}
           tags: |
             ${{ secrets.DOCKERHUB_USERNAME }}/tasks-app-client:latest
             ${{ secrets.DOCKERHUB_USERNAME }}/tasks-app-client:${{ github.sha }}
